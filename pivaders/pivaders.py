@@ -183,6 +183,7 @@ class Game(object):
                 GameState.start_screen = False
                 self.lives = 2
                 self.score = 0
+                self.rounds_won = 0
                 self.make_player()
                 self.make_defenses()
                 self.alien_wave(0)
